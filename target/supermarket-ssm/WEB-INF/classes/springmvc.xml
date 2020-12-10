@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+        <!-- 扫描controller的注解，别的不扫描 -->
+        <context:component-scan base-package="cn.itcast.*">
+                <!--配置哪些不扫描-->
+                <context:include-filter type="annotation"
+                                        expression="org.springframework.stereotype.Controller"/>
+        </context:component-scan>
+
+        <!-- 使用默认的Servlet来响应静态文件 -->
+        <mvc:default-servlet-handler/>                         <!--这句要加上，要不然可能会访问不到静态资源，具体作用自行百度-->
+
+<!--         配置的视图解析器对象-->
+        <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                <!--重定向时,是否加上上下文路径-->
+                <property name="redirectContextRelative" value="true"/>
+                <!--配置解析前后缀-->
+                <!--视图存放路径-->
+                <property name="prefix" value="/WEB-INF/page/"/>
+                <!--配置视图后缀-->
+                <property name="suffix" value=".jsp"/>
+        </bean>
+        <bean id="swagger2Config" class="cn.itcast.config.Swagger2Configuration" />
+
+        <!--本项目把静态资源放在了webapp的statics目录下，资源映射如下-->
+        <mvc:resources mapping="/css/**" location="/statics/css/"/>
+        <mvc:resources mapping="/js/**" location="/statics/js/"/>
+        <mvc:resources mapping="/images/**" location="/statics/images/"/>
+
+        <!--开启springmvc注解支持,使注解驱动-->
+        <mvc:annotation-driven />
+
+        <!-- swagger静态资源访问配置 -->
+        <mvc:resources mapping="swagger-ui.html" location="classpath:/META-INF/resources/" />
+        <mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/" />
+</beans>

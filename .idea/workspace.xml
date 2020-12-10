@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="supermarket-ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a5a43bb-ebb5-4ab1-98da-4481da627401" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/unnamed/unnamed.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/config/Swagger2Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/controller/CommodityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/controller/OrderItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/CommodityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/Commodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/IDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/MemberRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/CommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/CommodityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/cashier.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/commodity.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/receipt.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/component/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/config/Swagger2Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/controller/CommodityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/controller/OrderItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/CommodityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/MemberMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/OrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Commodity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/IDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/MemberRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/CommodityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/OrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/CommodityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/OrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/config/Swagger2Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/controller/CommodityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/controller/OrderItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/dao/CommodityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/dao/MemberMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/dao/OrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/dao/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/domain/Commodity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/domain/IDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/domain/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/domain/MemberRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/domain/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/CommodityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/OrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/impl/CommodityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/impl/OrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/byte-buddy-1.6.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/classmate-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/guava-18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/jackson-annotations-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/jackson-core-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/jackson-databind-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/jackson-dataformat-xml-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/javassist-3.21.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/mapstruct-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/mysql-connector-java-8.0.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/reflections-0.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/slf4j-log4j12-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-jdbc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-test-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-tx-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/springfox-core-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/springfox-schema-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/springfox-spi-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/springfox-spring-web-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/springfox-swagger-common-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/springfox-swagger-ui-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/springfox-swagger2-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/swagger-annotations-1.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/swagger-models-1.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/page/cashier.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/page/commodity.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/page/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/page/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/page/receipt.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/component/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/supermarket-ssm/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - supermarket@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Program Files\apache-maven-3.6.1\news" />
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hu7uj7HrlCePPnkVZi6UnUooqz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\src\main\webapp\WEB-INF\page" />
+      <recent name="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\src\main\webapp" />
+      <recent name="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\src\main\webapp\page" />
+      <recent name="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\src\main\webapp" />
+      <recent name="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\src\main\webapp\WEB-INF\page" />
+      <recent name="C:\Users\LYJ\Desktop\H-ITOO\supermarket-ssm\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.springmvc">
+    <configuration name="TestMyBatis.run1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supermarket-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.test.TestMyBatis" />
+      <option name="METHOD_NAME" value="run1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyBatis.run2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supermarket-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.test.TestMyBatis" />
+      <option name="METHOD_NAME" value="run2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.run1" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="supermarket-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.test.TestSpring" />
+      <option name="METHOD_NAME" value="run1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springmvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/swagger-ui.html" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf-8" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="supermarket-ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_supermarket-ssm" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2471" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="supermarket-ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestSpring.run1" />
+      <item itemvalue="JUnit.TestMyBatis.run1" />
+      <item itemvalue="JUnit.TestMyBatis.run2" />
+      <item itemvalue="Tomcat Server.springmvc" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMyBatis.run1" />
+        <item itemvalue="JUnit.TestMyBatis.run2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.15476191" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a5a43bb-ebb5-4ab1-98da-4481da627401" name="Default Changelist" comment="" />
+      <created>1600849347960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600849347960</updated>
+      <workItem from="1600849349712" duration="15198000" />
+      <workItem from="1600932098674" duration="2356000" />
+      <workItem from="1600935779425" duration="11790000" />
+      <workItem from="1600993505073" duration="14451000" />
+      <workItem from="1601017807949" duration="3654000" />
+      <workItem from="1601090404594" duration="2619000" />
+      <workItem from="1601103841176" duration="9577000" />
+      <workItem from="1601125279626" duration="1040000" />
+      <workItem from="1601126407605" duration="3508000" />
+      <workItem from="1601174987575" duration="604000" />
+      <workItem from="1601364733384" duration="3640000" />
+      <workItem from="1601435287533" duration="1921000" />
+      <workItem from="1603092473691" duration="12129000" />
+      <workItem from="1603674514514" duration="15456000" />
+      <workItem from="1603761496058" duration="8189000" />
+      <workItem from="1603777856466" duration="1628000" />
+      <workItem from="1603781211186" duration="2091000" />
+      <workItem from="1603784239291" duration="8731000" />
+      <workItem from="1603847011040" duration="9326000" />
+      <workItem from="1603867461927" duration="7622000" />
+      <workItem from="1603891021334" duration="195000" />
+      <workItem from="1603934226096" duration="1759000" />
+      <workItem from="1603938999035" duration="6965000" />
+      <workItem from="1603979860734" duration="135000" />
+      <workItem from="1604017109895" duration="24397000" />
+      <workItem from="1604063730504" duration="1870000" />
+      <workItem from="1604103451813" duration="23358000" />
+      <workItem from="1604138268740" duration="2264000" />
+      <workItem from="1604150557177" duration="1181000" />
+      <workItem from="1604212350278" duration="19697000" />
+      <workItem from="1604278098422" duration="23675000" />
+      <workItem from="1604364713299" duration="27224000" />
+      <workItem from="1604412504245" duration="1382000" />
+      <workItem from="1604449864020" duration="18508000" />
+      <workItem from="1604482924881" duration="4073000" />
+      <workItem from="1604488371698" duration="7584000" />
+      <workItem from="1604535923904" duration="9011000" />
+      <workItem from="1604558133421" duration="8788000" />
+      <workItem from="1604567627277" duration="10681000" />
+      <workItem from="1604628532424" duration="1000" />
+      <workItem from="1604628561690" duration="27837000" />
+      <workItem from="1604713388550" duration="6192000" />
+      <workItem from="1604721038933" duration="1215000" />
+      <workItem from="1604732341227" duration="12516000" />
+      <workItem from="1604756077507" duration="589000" />
+      <workItem from="1604889050227" duration="11741000" />
+      <workItem from="1604909127941" duration="122000" />
+      <workItem from="1604911412540" duration="69000" />
+      <workItem from="1604912170426" duration="188000" />
+      <workItem from="1604914505930" duration="2073000" />
+      <workItem from="1604926027380" duration="647000" />
+      <workItem from="1604992037673" duration="11000" />
+      <workItem from="1604992100365" duration="417000" />
+      <workItem from="1605076922958" duration="10420000" />
+      <workItem from="1605163760072" duration="7916000" />
+      <workItem from="1605173341638" duration="412000" />
+      <workItem from="1605173791867" duration="2887000" />
+      <workItem from="1605239507533" duration="486000" />
+      <workItem from="1605576844178" duration="1283000" />
+      <workItem from="1605598715074" duration="1107000" />
+      <workItem from="1605604141691" duration="494000" />
+      <workItem from="1605605088106" duration="83000" />
+      <workItem from="1605684021306" duration="4418000" />
+      <workItem from="1605768994567" duration="776000" />
+      <workItem from="1606130465659" duration="748000" />
+      <workItem from="1606182375622" duration="45000" />
+      <workItem from="1606273996597" duration="42000" />
+      <workItem from="1607077220008" duration="615000" />
+      <workItem from="1607417449683" duration="1862000" />
+      <workItem from="1607498536997" duration="466000" />
+      <workItem from="1607509110706" duration="635000" />
+      <workItem from="1607515196922" duration="348000" />
+      <workItem from="1607515589633" duration="127000" />
+      <workItem from="1607569062375" duration="1399000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="486" y="260" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605169034723">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1092" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1603683926327" />
+    <state x="486" y="260" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169034723" />
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1604630811294">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-822" y="463" key="#com.intellij.ide.util.MemberChooser/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1600999354270" />
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604630811294" />
+    <state x="711" y="376" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605080415800">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="711" y="376" key="#com.intellij.ide.util.TreeClassChooserDialog/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605080415800" />
+    <state x="580" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604045102707">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-953" y="438" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1601004741425" />
+    <state x="580" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604045102707" />
+    <state x="580" y="168" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1603103484114" />
+    <state x="383" y="422" width="438" height="596" key="#xdebugger.evaluate" timestamp="1604907576968">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="383" y="422" width="438" height="596" key="#xdebugger.evaluate/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604907576968" />
+    <state x="714" y="446" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603103502051">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="714" y="446" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1603103502051" />
+    <state width="827" height="664" key="DebuggerActiveHint" timestamp="1604630608231">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="588" height="466" key="DebuggerActiveHint/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1601128149913" />
+    <state width="827" height="664" key="DebuggerActiveHint/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604630608231" />
+    <state x="351" y="207" key="FileChooserDialogImpl" timestamp="1607572638612">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-840" y="475" key="FileChooserDialogImpl/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605687558826" />
+    <state x="351" y="207" key="FileChooserDialogImpl/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1607572638612" />
+    <state width="1323" height="88" key="GridCell.Tab.0.bottom" timestamp="1605689279247">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.bottom/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279247" />
+    <state width="1079" height="348" key="GridCell.Tab.0.bottom/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518486" />
+    <state width="1207" height="226" key="GridCell.Tab.0.bottom/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841934" />
+    <state width="1724" height="278" key="GridCell.Tab.0.bottom/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468798" />
+    <state width="1207" height="265" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1323" height="88" key="GridCell.Tab.0.center" timestamp="1605689279247">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.center/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279247" />
+    <state width="1079" height="348" key="GridCell.Tab.0.center/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518486" />
+    <state width="1207" height="226" key="GridCell.Tab.0.center/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841934" />
+    <state width="1724" height="278" key="GridCell.Tab.0.center/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468798" />
+    <state width="1207" height="265" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1603954019690" />
+    <state width="1323" height="88" key="GridCell.Tab.0.left" timestamp="1605689279247">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.left/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279247" />
+    <state width="1079" height="348" key="GridCell.Tab.0.left/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518485" />
+    <state width="1207" height="226" key="GridCell.Tab.0.left/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841934" />
+    <state width="1724" height="278" key="GridCell.Tab.0.left/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468798" />
+    <state width="1207" height="265" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1603954019690" />
+    <state width="1323" height="88" key="GridCell.Tab.0.right" timestamp="1605689279247">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.right/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279247" />
+    <state width="1079" height="348" key="GridCell.Tab.0.right/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518486" />
+    <state width="1207" height="226" key="GridCell.Tab.0.right/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841934" />
+    <state width="1724" height="278" key="GridCell.Tab.0.right/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468798" />
+    <state width="1207" height="265" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1603954019690" />
+    <state width="1093" height="46" key="GridCell.Tab.1.bottom" timestamp="1605689279240">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.1.bottom/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279240" />
+    <state width="1079" height="348" key="GridCell.Tab.1.bottom/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518487" />
+    <state width="1207" height="226" key="GridCell.Tab.1.bottom/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841935" />
+    <state width="1724" height="278" key="GridCell.Tab.1.bottom/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468800" />
+    <state width="1207" height="265" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.1.center" timestamp="1605689279239">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.1.center/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279239" />
+    <state width="1079" height="348" key="GridCell.Tab.1.center/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518486" />
+    <state width="1207" height="226" key="GridCell.Tab.1.center/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841935" />
+    <state width="1724" height="278" key="GridCell.Tab.1.center/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468799" />
+    <state width="1207" height="265" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.1.left" timestamp="1605689279239">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.1.left/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279239" />
+    <state width="1079" height="348" key="GridCell.Tab.1.left/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518486" />
+    <state width="1207" height="226" key="GridCell.Tab.1.left/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841935" />
+    <state width="1724" height="278" key="GridCell.Tab.1.left/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468799" />
+    <state width="1207" height="265" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.1.right" timestamp="1605689279240">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.1.right/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279240" />
+    <state width="1079" height="348" key="GridCell.Tab.1.right/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518486" />
+    <state width="1207" height="226" key="GridCell.Tab.1.right/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841935" />
+    <state width="1724" height="278" key="GridCell.Tab.1.right/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468799" />
+    <state width="1207" height="265" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.2.bottom" timestamp="1605689279241">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.2.bottom/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279241" />
+    <state width="1079" height="348" key="GridCell.Tab.2.bottom/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518487" />
+    <state width="1207" height="226" key="GridCell.Tab.2.bottom/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841698" />
+    <state width="1724" height="278" key="GridCell.Tab.2.bottom/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468800" />
+    <state width="1207" height="265" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.2.center" timestamp="1605689279241">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.2.center/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279241" />
+    <state width="1079" height="348" key="GridCell.Tab.2.center/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518487" />
+    <state width="1207" height="226" key="GridCell.Tab.2.center/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841698" />
+    <state width="1724" height="278" key="GridCell.Tab.2.center/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468800" />
+    <state width="1207" height="265" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.2.left" timestamp="1605689279241">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.2.left/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279241" />
+    <state width="1079" height="348" key="GridCell.Tab.2.left/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518487" />
+    <state width="1207" height="226" key="GridCell.Tab.2.left/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841698" />
+    <state width="1724" height="278" key="GridCell.Tab.2.left/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468800" />
+    <state width="1207" height="265" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.2.right" timestamp="1605689279241">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.2.right/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279241" />
+    <state width="1079" height="348" key="GridCell.Tab.2.right/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518487" />
+    <state width="1207" height="226" key="GridCell.Tab.2.right/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841698" />
+    <state width="1724" height="278" key="GridCell.Tab.2.right/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468800" />
+    <state width="1207" height="265" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.3.bottom" timestamp="1605689279242">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.3.bottom/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279242" />
+    <state width="1079" height="348" key="GridCell.Tab.3.bottom/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518488" />
+    <state width="1207" height="226" key="GridCell.Tab.3.bottom/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841699" />
+    <state width="1724" height="278" key="GridCell.Tab.3.bottom/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468801" />
+    <state width="1207" height="265" key="GridCell.Tab.3.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.3.center" timestamp="1605689279241">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.3.center/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279241" />
+    <state width="1079" height="348" key="GridCell.Tab.3.center/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518488" />
+    <state width="1207" height="226" key="GridCell.Tab.3.center/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841698" />
+    <state width="1724" height="278" key="GridCell.Tab.3.center/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468801" />
+    <state width="1207" height="265" key="GridCell.Tab.3.center/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.3.left" timestamp="1605689279241">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.3.left/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279241" />
+    <state width="1079" height="348" key="GridCell.Tab.3.left/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518488" />
+    <state width="1207" height="226" key="GridCell.Tab.3.left/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841698" />
+    <state width="1724" height="278" key="GridCell.Tab.3.left/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468801" />
+    <state width="1207" height="265" key="GridCell.Tab.3.left/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state width="1093" height="46" key="GridCell.Tab.3.right" timestamp="1605689279242">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state width="1093" height="46" key="GridCell.Tab.3.right/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605689279242" />
+    <state width="1079" height="348" key="GridCell.Tab.3.right/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605169518488" />
+    <state width="1207" height="226" key="GridCell.Tab.3.right/-1366.323.1366.768/0.0.1920.1080@-1366.323.1366.768" timestamp="1604285841699" />
+    <state width="1724" height="278" key="GridCell.Tab.3.right/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604371468801" />
+    <state width="1207" height="265" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1603954019691" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1607572586233">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1123" y="323" key="SettingsEditor/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1605688991821" />
+    <state x="461" y="167" key="SettingsEditor/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1607572586233" />
+    <state x="-1485" y="788" width="1382" height="699" key="dock-window-1" timestamp="1604482566581">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state x="-1485" y="788" width="1382" height="699" key="dock-window-1/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604482566581" />
+    <state x="-953" y="482" key="extract.method.dialog" timestamp="1601005178570">
+      <screen x="-1366" y="323" width="1366" height="738" />
+    </state>
+    <state x="-953" y="482" key="extract.method.dialog/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1601005178570" />
+    <state x="601" y="251" width="700" height="530" key="recent.locations.popup" timestamp="1604395820697">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="601" y="251" width="700" height="530" key="recent.locations.popup/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604395820697" />
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1604369734111">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1600853519286" />
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604369734111" />
+    <state x="486" y="84" width="945" height="965" key="search.everywhere.popup" timestamp="1604905516694">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1020" y="382" width="672" height="678" key="search.everywhere.popup/-1366.323.1366.738/0.0.1920.1050@-1366.323.1366.738" timestamp="1601004397066" />
+    <state x="486" y="84" width="945" height="965" key="search.everywhere.popup/-1366.323.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604905516694" />
+    <state x="486" y="86" width="945" height="993" key="search.everywhere.popup/-1366.323.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1604571214496" />
+  </component>
+</project>
